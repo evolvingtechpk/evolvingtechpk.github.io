@@ -1,0 +1,90 @@
+Sitemap: https://evolvingtech.pk/sitemap.xml
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: CyberAlert
+Disallow: /
+
+User-agent: dotbot 
+Disallow: /
+
+User-agent: cityreview
+Disallow: /
+
+User-agent: Sosospider
+Disallow: /
+
+User-agent: ShopWiki
+Disallow: /
+
+User-agent: discobot
+Disallow: /
+
+User-agent: Birubot
+Disallow: /
+
+User-Agent: trendictionbot 
+Disallow: /
+
+User-agent: Flamingo_SearchEngine
+Disallow: /
+
+User-agent: GosoSpider
+Disallow: / 
+
+User-agent: Steeler
+Disallow: /
+
+User-agent: 008
+Disallow: /
+
+User-agent: Summify
+Disallow: /
+
+User-agent: accelobot
+Disallow: /
+
+User-agent: BLP_bbot/0.1
+Disallow: /
+
+User-agent: Exabot
+Disallow: /
+
+User-agent: TweetmemeBot
+Disallow: /
+
+User-agent: QuerySeekerSpider
+Disallow: /
+
+User-Agent: NING
+Disallow: /
+
+User-Agent: SputnikBot
+Disallow: /
+
+User-Agent: Cliqzbot
+Disallow: /
+
+User-Agent: Flamingo_SearchEngine
+Disallow: /
+
+User-Agent: Vegi bot
+Disallow: /
+
+User-Agent: demandbase-bot
+Disallow: /
+
+User-Agent: trendkite-akashic-crawler
+Disallow: /
+
+User-Agent: SemrushBot
+Disallow: /
+
+User-Agent: DemandbasePublisherAnalyzer
+Disallow: /
+
+User-agent: *
+Crawl-delay: 1
+Disallow: /beta/
+Disallow: /thankyou.html
