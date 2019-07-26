@@ -1,0 +1,44 @@
+;;
+;; Domain:     evolvingtech.pk.
+;; Exported:   2019-07-26 17:28:28
+;;
+;; This file is intended for use for informational and archival
+;; purposes ONLY and MUST be edited before use on a production
+;; DNS server.  In particular, you must:
+;;   -- update the SOA record with the correct authoritative name server
+;;   -- update the SOA record with the contact e-mail address information
+;;   -- update the NS record(s) with the authoritative name servers for this domain.
+;;
+;; For further information, please consult the BIND documentation
+;; located on the following website:
+;;
+;; http://www.isc.org/
+;;
+;; And RFC 1035:
+;;
+;; http://www.ietf.org/rfc/rfc1035.txt
+;;
+;; Please note that we do NOT offer technical support for any use
+;; of this zone data, the BIND name server, or any other third-party
+;; DNS software.
+;;
+;; Use at your own risk.
+
+;; SOA Record
+evolvingtech.pk.	3600	IN	SOA	evolvingtech.pk. root.evolvingtech.pk. 2031582870 7200 3600 86400 3600
+
+;; A Records
+evolvingtech.pk.	1	IN	A	162.210.101.171
+www.evolvingtech.pk.	1	IN	A	162.210.101.171
+
+;; CNAME Records
+autodiscover.evolvingtech.pk.	1	IN	CNAME	mail.yandex.com.
+
+;; MX Records
+evolvingtech.pk.	1	IN	MX	10 mx.yandex.net.
+
+;; TXT Records
+_acme-challenge.evolvingtech.pk.	1	IN	TXT	"FHIkkFCtii7TT3tyV4lNQE7_qvSphr0pH3dJ35dVZxw"
+_acme-challenge.www.evolvingtech.pk.	1	IN	TXT	"VzwTaVOmyv5e78VDeUhewVEu2nN33fORLHheUGkaz1w"
+evolvingtech.pk.	1	IN	TXT	"v=spf1 redirect=_spf.yandex.net"
+evolvingtech.pk.	1	IN	TXT	"google-site-verification=yvJlCWTBPdy_ajmyWeApjY1MjtoMGOYWNRAjm0bd1Hw"
